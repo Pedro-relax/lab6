@@ -18,13 +18,13 @@
 					   text-decoration:none;
 					   padding: 10px 20px;
 					   float:left;
-}
+					 }
 
 #main-navbar ul li {  right:50%;
 					  display:block;
 					  float:left;
 					  position:relative;
-}
+				   }
 
 #onpage { background-color:#000;
 		  text-decoration: underline overline;
