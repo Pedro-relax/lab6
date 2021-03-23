@@ -1,4 +1,51 @@
 #main-navbar { background-color:blue;
-
-
+			   overflow:hidden;
+			 }
+			 
+#navbar-container { width:100%;
+					position:relative;	
+				  }
+				  
+#main-navbar ul { margin:0;
+				  padding:0;
+				  left:50%;
+				  position:relative;
+				  list-style-type:none;
+				  float:left;
+				}
+				
+#main-navbar ul li a { color:#fff;
+					   text-decoration:none;
+					   padding: 10px 20px;
+					   float:left;
 }
+
+#main-navbar ul li {  right:50%;
+					  display:block;
+					  float:left;
+					  position:relative;
+}
+
+#onpage { background-color:#000;
+		  text-decoration: underline overline;
+		  display: block;
+		}
+
+#sidebar-container { background-color:red;
+					 height: 100%;
+					 width:20%;
+					 position:fixed;
+					 right:0%;
+				   }
+				   
+#sidebar ul { background-color:#000;
+			  padding:0;
+			  text-align:center;
+			  display:block;
+			  list-style-type:none;
+			}
+
+#sidebar ul li a { color:#fff;
+				   text-decoration:none;
+				   padding: 15px 0;				   
+				 }
